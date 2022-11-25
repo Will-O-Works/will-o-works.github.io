@@ -105,6 +105,13 @@ a:hover {
     /* height: 200px; */
 }
 
+.itchwidget {
+    width: 100%;
+    max-width: 800px;
+    /*min-width: 646px;*/
+    min-height: 190px;
+    /* height: 200px; */
+}
 
 
 
