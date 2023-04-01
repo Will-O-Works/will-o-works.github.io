@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');*/
+@font-face {
+    font-family: "Akshar";
+    src: url("Akshar.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
     font-family: 'Akshar', sans-serif;
