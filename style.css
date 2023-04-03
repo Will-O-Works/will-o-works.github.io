@@ -102,7 +102,11 @@ a:hover {
 .avatar {
     max-width: 80px;
 }
-
+.avatarImg {
+    max-width: 64px;
+    max-height: 64px;
+    border-radius: 16px;
+}
 
 .steamwidget {
     width: 100%;
