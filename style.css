@@ -1,3 +1,5 @@
+@import url("mailform.css");
+
 /*@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');*/
 @font-face {
     font-family: "Akshar";
@@ -9,8 +11,10 @@
 
 body {
     font-family: 'Akshar', sans-serif;
-    background-color: #161616
+    background-color: #161616;
+    position:static;
 }
+
 
 a {
     color: #1da9fa;
@@ -28,7 +32,8 @@ a:hover {
     position: fixed;
     left: 8px;
 }
-.backBtn:hover{
+
+.backBtn:hover {
     left: 12px;
 }
 
@@ -102,6 +107,7 @@ a:hover {
 .avatar {
     max-width: 80px;
 }
+
 .avatarImg {
     max-width: 64px;
     max-height: 64px;
@@ -152,10 +158,13 @@ a:hover {
 }
 
 .noselect {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-  }
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
 
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
