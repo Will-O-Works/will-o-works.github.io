@@ -171,3 +171,35 @@ a:hover {
         font-size: 3.5rem;
     }
 }
+
+
+.specialAnnouncement {
+    position: relative;
+    width: 100%;
+    /* left: 0; */
+    /* overflow: visible; */
+    /* 
+    margin-left: calc((-100vw + 100%) / 2);
+    margin-right: calc((-100vw + 100%) / 2);  */
+    margin-top: 32px;
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    border-color: #1f5ea7;
+    background-color: #0b1829;
+}
+
+.specialAnnouncement hr{
+    border: 1px solid #1da9fa;
+    width: 100%;
+}
+
+.specialAnnouncementIcon {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+
+    color: #1da9fa;
+    width: 40px;
+    height: 40px;
+}
+
