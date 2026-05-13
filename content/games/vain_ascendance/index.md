@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 
 title = 'Vain Ascendance'
 tagline = "A vampire action roguelite where you ascend a tower to find a cure to sunlight."
