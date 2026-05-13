@@ -11,3 +11,11 @@ copyright = "Will-o-Works Studios Inc."
 [caches]
   [caches.images]
     dir = ":cacheDir/images"
+
+[server]
+  [[server.redirects]]
+    force = false
+    from = "/**"
+    fromRe = ""
+    status = 404
+    to = "/404.html"
