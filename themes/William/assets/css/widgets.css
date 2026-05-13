@@ -27,8 +27,8 @@
 
 
 @media (max-width: 768px) {
-    .steamwidget{
-
+    .yt-container{
+        width: 100%;
     }
 
 }

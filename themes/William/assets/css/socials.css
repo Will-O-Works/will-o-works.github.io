@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1em;
-    margin: 1rem;
+    margin: 0rem 1rem;
 }
 .socials-item {
     margin: 0;
