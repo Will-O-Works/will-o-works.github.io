@@ -49,8 +49,9 @@ header {
 }
 
 .nav-link:hover {
-  background-color: #16A1DA;
-  transform: translateY(-1px);
+  background-color: #2F65AA;
+  color: #ffffff;
+  transform:  scale(1.1);
 }
 
 .logo img {
