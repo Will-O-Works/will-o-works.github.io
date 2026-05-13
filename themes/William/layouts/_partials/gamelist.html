@@ -1,0 +1,26 @@
+<div class="games-root panel">
+    <h2>Our Games</h2>
+    <div class="games-list">
+        {{range where .Site.RegularPages "Section" "games"}}
+        <div class="games-itemroot">
+            <div class="row games-row">
+                <div class="col50">
+                <a href="{{ .RelPermalink }}">
+                    {{with .Resources.GetMatch .Params.capsule}}
+                    <img class="games-capsule" src="{{.RelPermalink}}">
+                    {{end}}
+                </a>
+                </div>
+                <div class="col50">
+                    <a href="{{ .RelPermalink }}">
+                        <h3>{{.Params.title}}</h3>
+                    </a>
+                    <!-- <p class="subtle">{{.Params.tagline}}</p> -->
+                    <p class="subtle"> {{partial "releasedate.html" .}}</p>
+                    {{ partial "steamcta.html" .}}
+                </div>
+            </div>
+        </div>
+        {{end}}
+    </div>
+</div>

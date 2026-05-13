@@ -1,0 +1,17 @@
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+
+
+.site-footer {
+  width: 100%;
+  padding: 0rem;
+  
+  background-color: #222124;
+  text-align: center; 
+}
+.site-footer p{
+  margin: 0.2rem;
+}

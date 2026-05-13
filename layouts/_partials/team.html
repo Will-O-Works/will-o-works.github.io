@@ -1,0 +1,45 @@
+<div class="team-root panel">
+    <h2>The Team</h2>
+    <hr>
+    <div class="team-list">
+        {{range site.Data.team.teammembers}}
+        <div class="team-itemroot">
+            <img class="team-icon" src="{{ .icon | relURL }}">
+            <div class="team-body">
+                <div class="team-row">
+                    <p class="team-name">{{.name}}</p>
+                    <p class="team-role">{{.role}}</p>
+                </div>
+                <div class="team-row">
+                    <p class="team-spec">{{if .specialtext}}
+                        {{if .speciallink}}
+                        <a class="team-spec" href="{{.speciallink}}"> {{end}}
+                            {{.specialtext}}
+                            {{if .speciallink}}
+                        </a> {{end}}
+                        {{end}}
+                    </p>
+                    <p class="team-projects subtle">Worked on: {{.projects}}</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="row">
+    <div class="col avatar">
+        <img src="jamieIcon.png" class="avatarImg"></img>
+    </div>
+    <div class="col text-left">
+        <div class="row align-items-end">
+            <p class="col-auto h5 text-start">Jamie Powers</p>
+            <p class="col h6 text-end">Lead Developer, Artist</p>
+        </div>
+        <div class="row align-items-end">
+            <p class="col h6 text-end small">Worked on: Star Apprentice, Vain Ascendance</p>
+        </div>
+    </div>
+</div> -->
+
+        {{end}}
+    </div>
+</div>

@@ -1,0 +1,67 @@
+.team-root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 80%;
+    margin: 3rem;
+}
+
+.team-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.team-itemroot{
+    display: flex;
+    /* background-color: rgba(0, 0, 0, 0.20); */
+    width: 100%;
+    border-bottom: 1px solid #8f8f8f;
+    padding: 1rem;
+}
+.team-itemroot:last-child{
+    border-bottom: none;
+}
+
+.team-itemroot p{
+    margin: 0.2rem;
+}
+
+.team-icon {
+    max-width: 64px;
+    max-height: 64px;
+    border-radius: 16px;
+    margin-right: 1rem;
+}
+
+.team-body{
+    width: 100%;
+}
+
+
+.team-row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.team-name{
+    font-size: 14pt;
+}
+.team-role{
+    font-size: 12pt;
+    margin-left: auto;
+}
+
+.team-spec{
+    font-size: 10pt;
+    /* margin-right: auto; */
+}
+.team-projects{
+    text-align: right;
+    /* margin-left: auto; */
+    font-size: 10pt;
+}

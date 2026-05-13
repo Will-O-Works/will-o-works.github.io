@@ -1,0 +1,32 @@
+[[teammembers]]
+name = "Jamie Powers"
+role = "Lead Developer, Artist"
+icon = "images/teamicons/jamieIcon.png"
+projects = "Star Apprentice, Vain Ascendance"
+
+
+[[teammembers]]
+name = "Vivian The Cat"
+role = "Designer, Programmer"
+icon = "images/teamicons/vivianIcon.png"
+projects = "Star Apprentice"
+
+[[teammembers]]
+name = "Sam Anderson"
+role = "Musician"
+icon = "images/teamicons/samIcon.png"
+projects = "Star Apprentice"
+specialtext = "Check out his solo game"
+speciallink = "https://store.steampowered.com/app/1975040/Dog_Adventure_Harmony/"
+
+[[teammembers]]
+name = "Liam Latham"
+role = "Musician"
+icon = "images/teamicons/liamIcon.png"
+projects = "Star Apprentice"
+
+[[teammembers]]
+name = "Jomee Rillo"
+role = "Artist"
+icon = "images/teamicons/jomeeIcon.png"
+projects = "???"

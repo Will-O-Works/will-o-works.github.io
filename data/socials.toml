@@ -1,0 +1,34 @@
+[[socials]]
+name = "YouTube"
+icon = "/images/socials/youtube.svg"
+link = "https://youtube.com/@Will-o-Works"
+
+[[socials]]
+name = "Discord"
+icon = "/images/socials/discord.svg"
+link = "https://discord.gg/j49Nrx5P4N"
+
+[[socials]]
+name = "Steam"
+icon = "/images/socials/steam.svg"
+link = "https://store.steampowered.com/curator/42528065-Will-o-Works/"
+
+[[socials]]
+name = "Itch.io"
+icon = "/images/socials/itchio.svg"
+link = "https://will-o-works.itch.io/"
+
+[[socials]]
+name = "Bluesky"
+icon = "/images/socials/bluesky.svg"
+link = "https://bsky.app/profile/will-o-works.com"
+
+[[socials]]
+name = "Twitch"
+icon = "/images/socials/twitch.svg"
+link = "https://www.twitch.tv/willoworksdev"
+
+[[socials]]
+name = "TikTok"
+icon = "/images/socials/tiktok.svg"
+link = "https://www.tiktok.com/@will_o_works"

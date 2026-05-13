@@ -1,0 +1,14 @@
+{{ define "main" }}
+ <div class="content">
+  <!-- <h1 class="banner">{{ .Title }}</h1> -->
+
+  {{partial "gamelist.html" .}}
+  <!-- {{ range .Pages }}
+    <section class="panel">
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ .Summary }}
+    </section>
+  {{ end }} -->
+  
+  </div>
+{{ end }}

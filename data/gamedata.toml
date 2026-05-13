@@ -1,0 +1,17 @@
+[[games]]
+title = "Star Apprentice: Dazzling Danmaku Detective"
+steam = "https://store.steampowered.com/app/2388860/Star_Apprentice_Dazzling_Danmaku_Detective/?utm_source=wwssite"
+capsule = "/images/gamedata/dddCapsule.png"
+releasedate = "TBD"
+
+[[games]]
+title = "Vain Ascendance"
+steam = "https://store.steampowered.com/app/2059600/Vain_Ascendance/?utm_source=wwssite"
+capsule = "/images/gamedata/vainCapsule.png"
+releasedate = "2022"
+
+[[games]]
+title = "Star Apprentice: Magical Murder Mystery"
+steam = "https://store.steampowered.com/app/1632770/Star_Apprentice_Magical_Murder_Mystery/?utm_source=wwssite"
+capsule = "/images/gamedata/mmmCapsule.png"
+releasedate = "2021"

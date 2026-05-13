@@ -1,0 +1,27 @@
+.socials-root{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1rem;
+}
+.socials-item {
+    margin: 0;
+    transition:
+        transform 0.2s ease;
+}
+.socials-item p{
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.socials-icon{
+    width: 48px;
+    height: 48px;
+    color: aqua;
+    fill: chocolate;
+    margin: 0;
+}
+.socials-item:hover{
+    transform: translateY(-1px) scale(1.1);
+}

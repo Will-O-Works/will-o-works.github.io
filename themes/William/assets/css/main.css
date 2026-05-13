@@ -1,0 +1,157 @@
+@import "components/header.css";
+@import "components/footer.css";
+@import "team.css";
+@import "socials.css";
+@import "gamelist.css";
+@import "gamepages.css";
+@import "widgets.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&display=swap');
+
+:root {
+  --header-height: 92px;
+}
+
+/* @font-face {
+    font-family: "Akshar";
+    src: url("/fonts/Akshar.ttf");
+    font-weight: normal;
+    font-style: normal;
+} */
+
+* {
+  box-sizing: border-box;
+  /* font-family: "Akshar"; */
+  font-weight: 500;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #101011;
+  color: #ffffff;
+  font-family: "Akshar";
+  line-height: 1.5;
+  margin: 0;
+  /* max-width: 768px; */
+  /* padding-top: 90px; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  /* padding: 2rem; */
+  padding-top: var(--header-height);
+  flex: 1;
+  /* 
+  flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+
+a {
+  color: rgb(86, 113, 233);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(123, 147, 250);
+  text-decoration:underline;
+}
+
+h2 {
+  margin: 0;
+  font-size: 32;
+}
+
+h3 {
+  margin: 0;
+  font-size: 12;
+}
+
+hr {
+  width: 100%;
+}
+
+p{
+  margin: 0.2rem;
+}
+
+.accent-bar {
+  height: 8px;
+  background-color: #2A61A2;
+}
+
+.panel {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.192);
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  background-color: #161518;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 80%;
+  margin: 0rem 3rem;
+
+}
+
+.zone{
+  /* background-color: #161518; */
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 80%;
+  margin: 0rem 3rem;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  min-width: 80%;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0rem;
+}
+
+.banner {
+  width: 100%;
+  padding: 0rem;
+
+  background-color: #222124;
+  text-align: center;
+}
+
+.banner p {
+  font-size: 14pt;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col50{
+  max-width: 50%;
+}
+
+.highlight {
+  color: #ced422;
+}
+.currency {
+  color: #22d44e;
+}
+
+.subtle {
+  color: #b9b9b9;
+}
