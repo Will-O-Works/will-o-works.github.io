@@ -7,3 +7,7 @@ copyright = "Will-o-Works Studios Inc."
 [Params]
   [Params.assets]
     favicon = "/assets/williamface4x.png"
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
