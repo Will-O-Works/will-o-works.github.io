@@ -2,7 +2,7 @@
     {{range site.Data.socials.socials}}
     <a class="" href="{{.link}}">
         <div class="socials-item">    
-            <img class="socials-icon" src="{{.icon }}">
+            <img class="socials-icon" src="{{.icon | relURL }}">
             <!-- <p>{{.name}}</p> -->
         </div>
     </a>
