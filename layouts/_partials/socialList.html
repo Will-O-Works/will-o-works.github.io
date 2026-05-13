@@ -1,8 +1,8 @@
 <div class="socials-root">
     {{range site.Data.socials.socials}}
-    <a class="" href="{{.link}}">
+    <a class="" href="{{.link}}" target="_blank" rel="noopener noreferrer">
         <div class="socials-item">    
-            <img class="socials-icon" src="{{.icon | relURL }}">
+            <img class="socials-icon"  src="{{.icon | relURL }}">
             <!-- <p>{{.name}}</p> -->
         </div>
     </a>
