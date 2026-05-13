@@ -1,3 +1,7 @@
+.game-title-image{
+    max-width: 90%;
+}
+
 .quickfacts-list {
     width: 100%;
     /* background-color: rgb(25, 82, 82); */
@@ -22,4 +26,18 @@ td {
 .quickfacts-list th {
     min-width: 100px;
     font-weight: 700;
+}
+
+
+@media (max-width: 768px) {
+
+    .quickfacts-list th,
+    .quickfacts-list td {
+        display: block;
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+    .quickfacts-list td {
+        text-align: right;
+    }
 }

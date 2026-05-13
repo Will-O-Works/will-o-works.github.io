@@ -1,11 +1,19 @@
 .socials-root{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1em;
     margin: 1rem;
 }
 .socials-item {
     margin: 0;
+    background-color: #222124;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    box-shadow: 0rem 0.2rem 0.2rem rgba(0, 0, 0, 0.253);
+    border-radius: 16px;
+    align-items: center;
+    flex-shrink: 0;
+    min-width: 0;
     transition:
         transform 0.2s ease;
 }
@@ -24,4 +32,19 @@
 }
 .socials-item:hover{
     transform: translateY(-1px) scale(1.1);
+}
+
+
+
+@media (max-width: 768px) {
+    .socials-root{
+        gap: 0.5rem;
+    }
+    .socials-icon{
+        width: 32px;
+        height: 32px;
+    }
+    .socials-item p{
+        font-size:x-small;
+    }
 }

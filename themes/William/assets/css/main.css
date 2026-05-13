@@ -19,6 +19,7 @@
     font-style: normal;
 } */
 
+
 * {
   box-sizing: border-box;
   /* font-family: "Akshar"; */
@@ -46,7 +47,7 @@ body {
 
 main {
   /* padding: 2rem; */
-  padding-top: var(--header-height);
+  /* padding-top: calc(var(--header-height) + 1rem); */
   flex: 1;
   /* 
   flex-direction: column; */
@@ -98,6 +99,7 @@ p{
   justify-content: center;
   align-items: center;
   min-width: 80%;
+  max-width: 80%;
   margin: 0rem 3rem;
 
 }
@@ -117,9 +119,11 @@ p{
   display: flex;
   flex-direction: column;
   min-width: 80%;
+  max-width: 1200px;
   align-items: center;
   gap: 1rem;
-  margin: 1rem 0rem;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .banner {
@@ -154,4 +158,16 @@ p{
 
 .subtle {
   color: #b9b9b9;
+}
+
+
+@media (max-width: 768px){
+ .row{
+  flex-direction: column;
+  align-items: center;
+ }
+ .col50{
+  max-width: 100%;
+  align-items: center;
+}
 }

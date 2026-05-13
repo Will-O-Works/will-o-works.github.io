@@ -5,11 +5,11 @@
         <div class="games-itemroot">
             <div class="row games-row">
                 <div class="col50">
-                <a href="{{ .RelPermalink }}">
-                    {{with .Resources.GetMatch .Params.capsule}}
-                    <img class="games-capsule" src="{{.RelPermalink}}">
-                    {{end}}
-                </a>
+                    <a href="{{ .RelPermalink }}">
+                        {{with .Resources.GetMatch .Params.capsule}}
+                        <img class="games-capsule" src="{{.RelPermalink}}">
+                        {{end}}
+                    </a>
                 </div>
                 <div class="col50">
                     <a href="{{ .RelPermalink }}">

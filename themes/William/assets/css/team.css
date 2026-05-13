@@ -20,6 +20,7 @@
     width: 100%;
     border-bottom: 1px solid #8f8f8f;
     padding: 1rem;
+    gap: 1rem;
 }
 .team-itemroot:last-child{
     border-bottom: none;
@@ -33,7 +34,6 @@
     max-width: 64px;
     max-height: 64px;
     border-radius: 16px;
-    margin-right: 1rem;
 }
 
 .team-body{
@@ -64,4 +64,22 @@
     text-align: right;
     /* margin-left: auto; */
     font-size: 10pt;
+}
+
+
+@media (max-width: 768px) {
+    .team-itemroot{
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+        margin: 0rem;
+    }
+    .team-row{
+        flex-direction: column;
+        margin: 0rem;
+        gap: 0rem;
+    }
+    .team-projects{
+        text-align: center;
+    }
 }

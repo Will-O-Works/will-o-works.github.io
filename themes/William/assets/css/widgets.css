@@ -1,11 +1,16 @@
-.steamwidget{
-    min-width: 630px;
+.steam-widget{
+    min-width: 646px;
     min-height: 190px;
-    max-width: 95%;
-    width:max-content;
+    max-width: 646px;
+    width: 100%;
     height: fit-content;
+    margin: 0 auto;
 }
 
+.steam-widget-container{
+    width: 100%;
+    overflow-x: auto;
+}
 
 .yt-container{
     /* width: 100%; */
@@ -18,4 +23,12 @@
 }
 .yt-expand{
     width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .steamwidget{
+
+    }
+
 }

@@ -10,10 +10,10 @@ header {
   width: 100%;
   padding: 0rem;
   background-color: #222124;
-  position: fixed;
+  position:sticky;
   top: 0;
   left: 0;
-  height: var(--header-height);
+  min-height: var(--header-height);
   z-index: 1000;
   /* position: sticky; */
 }
@@ -66,4 +66,24 @@ header {
 .main-logo:hover {
   transform: scale(1.1) translateY(8px);
   /* background-color: black; */
+}
+
+
+
+@media (max-width: 768px) {
+
+    .site-header{
+      position: relative;
+    }
+    .nav-list {
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .header-inner{
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 0.5rem;
+    }
 }

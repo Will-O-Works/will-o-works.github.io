@@ -1,10 +1,10 @@
 <div class="socials-root">
     {{range site.Data.socials.socials}}
-    <div class="socials-item">
-        <a class="socials-item" href="{{.link}}">
+    <a class="" href="{{.link}}">
+        <div class="socials-item">    
             <img class="socials-icon" src="{{.icon }}">
-            <p>{{.name}}</p>
-        </a>
-    </div>
+            <!-- <p>{{.name}}</p> -->
+        </div>
+    </a>
     {{end}}
 </div>

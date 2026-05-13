@@ -30,8 +30,8 @@
 .games-capsule {
     max-width: 100%;
     display: block;
-    height:fit-content;
-    object-fit:contain;
+    height: fit-content;
+    object-fit: contain;
     border-radius: 4px;
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
     transition:
@@ -49,11 +49,11 @@
     /* background-color: aqua; */
 }
 
-.games-steamcta{
+.games-steamcta {
     background-color: #2A61A2;
     border-radius: 12px;
     box-shadow: 0rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
-    color: white ;
+    color: white;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -65,7 +65,8 @@
     transition:
         transform 0.2s ease;
 }
-.games-steamcta:hover{
+
+.games-steamcta:hover {
     background-color: #2c66ad;
     transform: scale(1.1);
     box-shadow: 0rem 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
@@ -76,3 +77,19 @@
     width: 32px;
 }
 
+@media (max-width: 768px) {
+
+    .games-itemroot {
+        flex-direction: column;
+    }
+
+    .games-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .games-steamcta {
+        align-self: center;
+        margin: 0 auto;
+    }
+
+}

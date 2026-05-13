@@ -15,3 +15,9 @@ footer {
 .site-footer p{
   margin: 0.2rem;
 }
+
+@media (max-width: 768px) {
+  .site-footer p{
+    font-size:smaller;
+  } 
+}
