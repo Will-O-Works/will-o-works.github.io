@@ -1,0 +1,8 @@
+
+{{if .Params.releasetext}}
+    {{.Params.releasetext}}
+{{else if .Params.releasedate}}
+    Release Date: {{.Params.releasedate}}
+{{else}}
+    Release Date: TBD
+{{end}}

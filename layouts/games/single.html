@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="content">
+  <img src="{{.Params.logo}}" alt="{{.Title}}">
+
+  <!-- {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> -->
+
+  {{if .Params.steamid}}
+  {{partial "steamwidget.html" .}}
+  {{end}}
+
+  {{if .Params.trailerYTid}}
+  <div class="zone">
+  {{partial "youtube-embed" (dict
+    "videoid" .Params.trailerYTid
+    "class" "yt-expand"
+  )}}
+  </div>
+  {{end}}
+
+  {{partial "quickgamefacts.html" .}}
+
+  <div class="panel">
+    {{ .Content }}
+  </div>
+
+  {{if .Params.steamid}}
+  {{partial "steamwidget.html" .}}
+  {{end}}
+
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</div>
+{{ end }}

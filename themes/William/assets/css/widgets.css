@@ -1,0 +1,21 @@
+.steamwidget{
+    min-width: 630px;
+    min-height: 190px;
+    max-width: 95%;
+    width:max-content;
+    height: fit-content;
+}
+
+
+.yt-container{
+    /* width: 100%; */
+    aspect-ratio: 16/9;
+}
+.yt-container iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.yt-expand{
+    width: 100%;
+}

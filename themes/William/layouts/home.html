@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="content">
+{{ partial "tagline.html" .}}  
+{{ partial "socialList.html" .}}
+{{ .Content }}
+{{partial "gamelist.html" .}}
+  <!-- {{ partial "team.html" .}} -->
+  <!-- {{ range site.RegularPages }}
+    <section>
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ .Summary }}
+    </section>
+  {{ end }} -->
+   {{partial "newsletterform.html"}}
+  {{partial "contactpanel.html" .}}
+  </div>
+{{ end }}

@@ -1,0 +1,26 @@
+{{if .Params.steam}}
+<a href="{{.Params.steam}}">
+    <div class="games-steamcta">
+        <img class="games-steamicon" src="{{"/images/socials/steam-white.svg" | relURL}}" alt="Steam">
+        {{if .Params.releasedate}}
+            {{$release := .Params.releasedate | time.AsTime}}
+            {{$now := now.Format "2006-01-02"}}
+            {{$releaseday := $release.Format "2006-01-02"}}
+            {{if lt $releaseday $now}}
+                {{if .Params.price}}
+                Buy Now!
+                <p class="currency">${{.Params.price}}</p>
+                {{else}}
+                Download for Free
+                {{end}}
+            {{else if eq $releaseday $now}}
+                Releasing Today!
+            {{else}}
+                Wishlist now!
+            {{end}}
+        {{else}}
+            Wishlist now!
+        {{end}}
+    </div>
+</a>
+{{end}}

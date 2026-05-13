@@ -1,0 +1,13 @@
+baseURL = 'https://will-o-works.com/'
+locale = 'en-us'
+title = 'Will-o-Works'
+theme = 'William'
+copyright = "Will-o-Works Studios Inc."
+
+[Params]
+  [Params.assets]
+    favicon = "/assets/williamface4x.png"
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"

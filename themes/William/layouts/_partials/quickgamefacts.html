@@ -1,0 +1,64 @@
+<div class="panel">
+
+    <h2>Quick Facts</h2>
+
+    <table class="quickfacts-list">
+
+        {{if .Params.developer}}
+        <tr>
+            <th> Developed by:</th>
+            <td>{{.Params.developer}}</td>
+        </tr>
+        {{end}}
+
+        {{if or .Params.publisher .Params.developer}}
+        <tr>
+            <th> Published by:</th>
+            <td>
+                {{if .Params.publisher}}
+                {{.Params.publisher}}
+                {{else if .Params.developer}}
+                {{.Params.developer}}
+                {{end}}
+            </td>
+        </tr>
+        {{end}}
+
+        <!-- {{if or .Params.releasedate .Params.releasetext}} -->
+        <tr>
+            <th> Release Date:</th>
+            <td>{{partial "releasedate2.html" .}}</td>
+        </tr>
+        <!-- {{end}} -->
+
+        {{if .Params.price}}
+        <tr>
+            <th> Price:</th>
+            <td>{{.Params.price}}</td>
+        </tr>
+        {{end}}
+
+        {{if .Params.languages}}
+        <tr>
+            <th> Languages:</th>
+            <td>{{delimit .Params.languages ", "}}</td>
+        </tr>
+        {{end}}
+
+        {{if .Params.genres}}
+        <tr>
+            <th> Genres:</th>
+            <td>{{delimit .Params.genres ", "}}</td>
+        </tr>
+        {{end}}
+
+        <tr>
+            <th> Webpage Link:</th>
+            <td>
+                <a href="{{.Permalink}}">
+                    {{.Permalink}}
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>

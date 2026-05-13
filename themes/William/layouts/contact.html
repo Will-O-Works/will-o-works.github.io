@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="content">
+  {{ .Content }}
+  
+  {{partial "contactpanel.html" .}}
+  {{partial "socialList.html" .}}
+
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </div>
+{{ end }}

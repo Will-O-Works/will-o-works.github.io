@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Will-o-Works</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Will-o-Works</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Will-o-Works Studios Inc.</copyright>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;We make cute dark games with love and malice ♥&lt;/p&gt;&#xA;&lt;p&gt;Will-o-Works is an indie studio from Canada that focuses on narrative driven games.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Star Apprentice: Dazzling Danmaku Detective</title>
+      <link>http://localhost:1313/games/dazzling_danmaku_detective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/games/dazzling_danmaku_detective/</guid>
+      <description>&lt;p&gt;Find evidence, interrogate suspects, and shoot down contradictions in this magical girl detective game! Your magic turns each interrogation into a bullet hell logic battle - Use it to uncover the truth behind each magical mystery in your way!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Star Apprentice: Magical Murder Mystery</title>
+      <link>http://localhost:1313/games/magical_murder_mystery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/games/magical_murder_mystery/</guid>
+      <description>&lt;p&gt;Star Apprentice: Magical Murder Mystery is a danmaku-detective game that combines point-and-click style deduction with high octane bullet hell gameplay. Find evidence, interrogate suspects, and refute contradictions to solve the case!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vain Ascendance</title>
+      <link>http://localhost:1313/games/vain_ascendance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/games/vain_ascendance/</guid>
+      <description>&lt;p&gt;Vain Ascendance is a fast-paced roguelite platformer where you ascend an ever-changing office tower. Use Valerie&amp;rsquo;s dash attack to steal blood from enemies and take it home to make blood cocktails that upgrade your abilities, or drink it to heal in a pinch!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
