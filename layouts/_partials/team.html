@@ -4,7 +4,11 @@
     <div class="team-list">
         {{range site.Data.team.teammembers}}
         <div class="team-itemroot">
-            <img class="team-icon" src="{{ .icon | relURL }}">
+            {{$icon := resources.Get .icon}}
+            {{with $icon}}
+                {{$thumb := .Resize "128x128"}}
+                <img class="team-icon" src="{{ $thumb.RelPermalink }}">
+            {{end}}
             <div class="team-body">
                 <div class="team-row">
                     <p class="team-name">{{.name}}</p>
