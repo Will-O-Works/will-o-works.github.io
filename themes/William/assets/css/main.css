@@ -32,6 +32,11 @@ body {
   margin: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 1rem;
+}
+
 body {
   background-color: #101011;
   color: #ffffff;
